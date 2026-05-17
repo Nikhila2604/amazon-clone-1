@@ -1,7 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   console.log("Script Loaded");
+ /* ===============================
+     SLIDER (ONLY IF EXISTS)
+  ================================ */
+  const slides = document.querySelectorAll('.slider-container a');
+  let current = 0;
 
+  if (slides.length > 0) {
+    function showSlide(i) {
+      slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === i);
+      });
+    }
+
+    function nextSlide() {
+      current = (current + 1) % slides.length;
+      showSlide(current);
+    }
+
+    function prevSlide() {
+      current = (current - 1 + slides.length) % slides.length;
+      showSlide(current);
+    }
+
+    setInterval(nextSlide, 3000);
+    showSlide(current);
+  }
   /* ===============================
      🔥 PRODUCT PAGE LOADING
   ================================ */
