@@ -121,209 +121,118 @@
 
     <p class="breakcrum"> Video Games > PC > Accessories > Headset </p>
 
-    <div class="product-page-layout">
+   <!-- PRODUCT PAGE -->
+<div class="product-page-layout">
 
-    <!-- LEFT COLUMN : THUMBNAILS + IMAGE -->
+    <!-- LEFT SIDE -->
     <div class="left-column">
 
-        <div class="product-icons">
-            <img src="./images/product_img.png" width="60">
-            <img src="./images/product_img.png" width="60">
-            <img src="./images/product_img.png" width="60">
-            <img src="./images/product_img.png" width="60">
-        </div>
+        <!-- Thumbnails -->
+        <div id="productThumbnails"></div>
 
+        <!-- Main Image -->
         <div class="main-image">
-            <img src="./images/product_img.png" width="420">
+            <img id="mainProductImage" src="" width="420">
         </div>
 
     </div>
 
-    <!-- CENTER COLUMN : PRODUCT DETAILS -->
+    <!-- CENTER -->
     <div class="center-column">
 
-        <h1 class="product-title">
-            boAt Rockerz 480, RGB LEDs, 6 Light Modes, 40mm Drivers, Beast Mode,
-            60H Battery, ENx Tech, Bluetooth Headphones (Black Sabre)
-        </h1>
+        <!-- Title -->
+        <h1 class="product-title"></h1>
 
-        <a href="#" class="store-link">Visit the boAt Store</a>
+        <!-- Brand -->
+        <p id="productBrand"></p>
 
+        <!-- Rating -->
         <div class="rating-row">
-            <span class="rating">4.1 ★★★★☆</span>
-            <a href="#" class="reviews">(4,088)</a>
-            <span class="badge">Amazon's Choice</span>
+            <span id="productRating"></span>
+            <span id="productReviews"></span>
+            <span id="productBadge"></span>
         </div>
 
         <hr>
 
+        <!-- Price -->
         <div class="price-section">
-            <span class="discount">-53%</span>
-            <span class="price">₹1,799</span>
+            <span id="productDiscount"></span>
+            <span>₹<span id="productPrice"></span></span>
         </div>
 
         <div class="mrp">
-            M.R.P.: <del>₹3,790</del>
+            M.R.P: ₹<del id="productMrp"></del>
         </div>
 
-        <div class="tax">Inclusive of all taxes</div>
+        <hr>
 
-        <div class="emi">
-            EMI starts at ₹63. No Cost EMI available
-            <a href="#">EMI options</a>
-        </div>
+        <!-- Variants -->
+        <div class="product-variant">
+            <p class="variant-label">Variants</p>
 
-        <h3 class="offers-title"><i class="fa-solid fa-tags offer-fa"></i>Offers</h3>
+            <div class="variant-options">
+                <div class="variant" id="variant1">
+                    <img id="variantImg1">
+                    <span id="variantPrice1"></span>
+                    <del id="variantMrp1"></del>
+                </div>
 
-        <div class="offers-row">
-            <div class="offer-card">
-                <strong>Cashback</strong>
-                <p>Upto ₹53.00 cashback as Amazon Pay Balance</p>
-                <a href="#">1 offer</a>
-            </div>
-
-            <div class="offer-card">
-                <strong>No Cost EMI</strong>
-                <p>Upto ₹46.89 EMI interest savings</p>
-                <a href="#">1 offer</a>
-            </div>
-
-            <div class="offer-card">
-                <strong>Bank Offer</strong>
-                <p>Upto ₹1,500.00 discount on select cards</p>
-                <a href="#">36 offers</a>
+                <div class="variant" id="variant2">
+                    <img id="variantImg2">
+                    <span id="variantPrice2"></span>
+                    <del id="variantMrp2"></del>
+                </div>
             </div>
         </div>
 
-    <div class="info-scroll-wrapper">
+        <!-- Specifications -->
+        <div id="productSpecs"></div>
 
-    <button class="scroll-btn left" onclick="scrollIcons(-1)">
-        <i class="fa-solid fa-chevron-left"></i>
-    </button>
+        <hr>
 
-    <div class="info-row" id="infoRow">
-        <div class="info-item"><i class="fa-solid fa-rotate-left"></i>10 days Replacement</div>
-        <div class="info-item"><i class="fa-solid fa-truck"></i>Free Delivery</div>
-        <div class="info-item"><i class="fa-solid fa-shield-halved"></i>1 Year Warranty</div>
-        <div class="info-item"><i class="fa-solid fa-money-bill-wave"></i>Pay on Delivery</div>
-        <div class="info-item"><i class="fa-solid fa-award"></i>Top Brand</div>
-        <div class="info-item"><i class="fa-solid fa-box"></i>Amazon Delivered</div>
-    </div>
-
-    <button class="scroll-btn right" onclick="scrollIcons(1)">
-        <i class="fa-solid fa-chevron-right"></i>
-    </button>
+        <!-- About -->
+        <h3>About this item</h3>
+        <ul id="aboutList"></ul>
 
     </div>
 
-
-    <hr>
-
-     <div class="product-variant">
-  <p class="variant-label">Colour: <strong>Black Sabre</strong></p>
-
-    <div class="variant-options">
-        <div class="variant active">
-      <img src="./images/product_img.png" alt="">
-      <hr>
-      <span class="variant-price">₹1,799</span>
-      <del>₹3,790</del>
-        </div>
-
-       <div class="variant">
-      <img src="./images/product_img1.png" alt="">
-      <hr>
-      <span class="variant-price">₹1,799</span>
-      <del>₹3,790</del>
-      </div>
-    </div>
-</div>
- <div class="product-specs">
-  <div><span>Brand</span><span>boAt</span></div>
-  <div><span>Colour</span><span>Black Sabre</span></div>
-  <div><span>Ear Placement</span><span>Over Ear</span></div>
-  <div><span>Form Factor</span><span>Over Ear</span></div>
-  <div><span>Impedance</span><span>32 Ohms</span></div>
-</div>
-<hr>
-
-<!--About-->
-<div class="about-item">
-  <h3>About this item</h3>
-
-  <ul id="aboutList" class="collapsed">
-    <li>Blazing RGB LEDs with 6 Modes: Amp your audio corner with the striking design of the boAt Rockerz 480 Bluetooth Headphones. The blazing RGB LEDs on these headphones are integrated with 6 modes that can be modified as per your preference.</li>
-    <li>BEAST Mode: Play solo or multiplayer games by activating BEAST mode. Its 40 ms low latency eliminates pesky lag for a realistic feel.</li>
-    <li>60 hours of Playback: Charge less and enjoy more with the massive playtime of these headphones. Tune into your playlist or podcasts uninterrupted without charging these headphones for up to 60 hours.</li>
-    <li>60 hours of Playback: Charge less and enjoy more with the massive playtime of these headphones. Tune into your playlist or podcasts uninterrupted without charging these headphones for up to 60 hours.</li>
-    <li>ENx Technology: Answer calls from a busy workspace, public transport, or café, with ENx technology that removes noise ensuring that you can speak and hear without looking for a quiet spot.</li>
-    <li>Dual Pairing: Take calls on your phone and resume the movie on your laptop without disconnecting and reconnecting these headphones each time. Dual pairing in these headphones makes your everyday hustle easier.</li>
-    <li>Bluetooth v5.3 Compatibility: Catch up on the latest series while commuting or call your buddies with wireless comfort courtesy of Bluetooth v5.3.</li>
-  </ul>
-
-  <button class="show-more" onclick="toggleAbout()">Show more</button>
-</div>
-
-
-    </div>
-
-    <!-- RIGHT COLUMN : BUY BOX -->
+    <!-- RIGHT SIDE -->
     <div class="right-column">
-    <div class="buy-box">
+        <div class="buy-box">
+            <div class="buy-box-header">
+                <p class="price-label">Deal price:</p>
+                <p class="buy-price">₹<span id="buyBoxPrice"></span></p>
+            </div>
 
-      <div class="buy-price">₹1,799</div>
+            <p class="offer-text"><span id="productDiscount"></span> off | M.R.P: <del>₹<span id="productMrp"></span></del></p>
+            <p class="delivery-text" id="deliveryText"></p>
+            <p class="stock" id="productStock"></p>
 
-      <p class="delivery">
-        FREE delivery <b>Wednesday, 14 January</b>
-        <a href="#">Details</a>
-      </p>
-     <br>
-      <p class="delivery">
-        Or fastest delivery <b>Tomorrow</b>. Order within <span> 6 hrs 59 mins </span>. <a href="#">Details</a>
-      </p>
-     <br>
-      <p class="location">
-       <i class="fa-solid fa-location"></i> Delivering to Hyderabad 500028  <a href="#">Update Location</a>
-      </p>
+            <div class="seller-info-box">
+                <p><strong>Sold by:</strong> <span id="productSeller"></span></p>
+                <p><strong>Fulfilled by:</strong> Amazon</p>
+                <p><strong>Payment:</strong> UPI, credit/debit card, EMI options available</p>
+            </div>
 
-      <p class="stock">In stock</p>
+            <div class="buy-actions">
+                <button class="add-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
 
-      <select class="quantity">
-        <option>Quantity: 1</option>
-        <option>Quantity: 2</option>
-      </select>
+            <div class="buy-box-extra">
+                <p><strong>Why you'll love this:</strong></p>
+                <ul>
+                    <li>Free delivery on eligible orders</li>
+                    <li>30-day return policy</li>
+                    <li>Secure checkout and fast shipping</li>
+                </ul>
+            </div>
 
-      <button class="add-cart">Add to Cart</button>
-      <button class="buy-now">Buy Now</button>
-       
-          <!-- GAP -->
-    <div class="divider"></div>
-
-    <!-- PROTECTION PLAN -->
-    <div class="protection-plan">
-        <h4>Add Protection Plan:</h4>
-
-        <label class="check-item">
-            <input type="checkbox">
-            <span>1 Year Extended warranty by Acko for <strong>₹99.00</strong></span>
-        </label>
-
-        <label class="check-item">
-            <input type="checkbox">
-            <span>1 Year Extended Warranty by OneAssist for <strong>₹129.00</strong></span>
-        </label>
+            <button class="wishlist">Add to Wish List</button>
+        </div>
     </div>
 
-    <!-- INFO LIST -->
-    <div class="seller-info">
-        <p><span>Ships from</span> Amazon</p>
-        <p><span>Sold by</span> Clicktech Retail Private Ltd</p>
-        <p><span>Payment</span> Secure transaction</p>
-    </div>
-      <button class="wishlist">Add to Wish List</button>
-
-    </div>
-  </div>
 </div>
 
 <section class="carousel-section">

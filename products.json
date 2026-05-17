@@ -1,0 +1,443 @@
+[
+
+    {
+      "id": 1,
+
+      "title": "boAt Rockerz 480, RGB LEDs,6 Light Modes, 40mm Drivers,Beast Mode, 60H Battery, ENx Tech, Stream Ad Free Music via App Support, Bluetooth Headphones, Wireless Over Ear Headphone with Mic (Black Sabre)",
+
+      "brand": "boAt",
+
+      "rating": 4.1,
+      "reviewCount": 4088,
+      "badge": "Amazon's Choice",
+
+      "price": 1799,
+      "mrp": 3790,
+      "discountPercent": 53,
+
+      "mainImage": "images/product_img.png",
+
+      "images": [
+        "images/product_img.png",
+        "images/product_img1.png"
+      ],
+
+      "specifications": {
+        "Brand": "boAt",
+        "Colour": "Black Sabre",
+        "Ear Placement": "Over Ear",
+        "Form Factor": "Over Ear",
+        "Impedance": "32 Ohms"
+      },
+      "variantImages": [
+        "images/product_img.png",
+        "images/product_img1.png"
+      ],
+      "variantPrices": [1799, 1799],
+      "variantMrp": [3790, 3790],
+      "about": [
+        "Blazing RGB LEDs with 6 Modes",
+        "BEAST Mode with 40ms low latency",
+        "60 Hours playback",
+        "ENx Technology noise cancellation",
+        "Bluetooth v5.3 support"
+      ],
+
+      "stock": "In stock",
+      "seller": "Clicktech Retail Private Ltd",
+      "deliveryText": "FREE delivery Wednesday"
+    },
+
+  {
+    "id": 2,
+    "title": "HotHands Body & Hand Super Warmers - Long Lasting Safe Natural Odorless Air Activated Warmers - Up to 18 Hours of Heat - 40 Individual Warmers",
+    "brand": "Sony",
+    "rating": 4.4,
+    "reviewCount": 11234,
+    "badge": "Best Seller",
+    "price": 7566,
+    "mrp": 16990,
+    "discountPercent": 36,
+    "mainImage": "./images/product1-1.jpg",
+    "images": [
+      "./images/product1-1.jpg",
+      "./images/product1-1.jpg"
+    ],
+    "specifications": {
+      "Brand": "HotHands",
+      "Colour": "Blue"
+
+    },
+
+    "variantImages": [
+      "images/product1-1.jpg",
+      "images/product1-1.jpg"
+    ],
+    "variantPrices": [1799, 1799],
+    "variantMrp": [3790, 3790],
+
+    "about": [
+      "50 Hours battery life",
+      "Quick charge support",
+      "Digital Sound Enhancement Engine",
+      "Multipoint connection",
+      "Built-in microphone"
+    ],
+    "stock": "In stock",
+    "seller": "Sony India Pvt Ltd",
+    "deliveryText": "FREE delivery Tomorrow"
+  },
+
+  {
+    "id": 3,
+    "title": "amazon basics Neoprene Dumbbells, Set Of 2, (1.8 Kgs Each ), Blue",
+    "brand": "JBL",
+    "rating": 4.2,
+    "reviewCount": 8732,
+    "badge": "Limited Deal",
+    "price": 5999,
+    "mrp": 7999,
+    "discountPercent": 25,
+    "mainImage": "./images/product1-2.jpg",
+    "images": [
+      "./images/product1-2.jpg",
+      "./images/product1-2.jpg"
+    ],
+    "specifications": {
+      "Brand": "JBL",
+      "Colour": "Black",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "32 Ohms"
+    },
+    "variantImages": [
+      "images/product1-2.jpg",
+      "images/product1-2.jpg"
+    ],
+    "variantPrices": [8799, 10799],
+    "variantMrp": [23790, 30790],
+
+    "about": [
+      "Set of 2 dumbbells for strength & resistance training","Easy-grip neoprene coating for a secure hold",
+      "Printed weight number on each end cap and color-coded for quick identification",
+      "Hexagonal shape prevents dumbbells from rolling away",
+      "Ideal for fitness classes or at-home workout routines","year limited warranty"
+
+
+    ],
+    "stock": "In stock",
+    "seller": "Appario Retail",
+    "deliveryText": "FREE delivery Friday"
+  },
+
+  {
+    "id": 4,
+    "title": "OutdoorMaster OTG Ski Goggles - Over Glasses Ski/Snowboard Goggles for Men, Women & Youth - 100% UV Protection (Black Frame + VLT 99% Clear Lens)",
+    "brand": "samsung",
+    "rating": 4.0,
+    "reviewCount": 5231,
+    "badge": "Amazon's Choice",
+    "price": 11499,
+    "mrp": 22999,
+    "discountPercent": 50,
+    "mainImage": "./images/product1-3.jpg",
+    "images": [
+      "./images/product1-3.jpg",
+      "./images/product1-3.jpg"
+    ],
+    "specifications": {
+      "Brand": "Noise",
+      "Colour": "White",
+      "Ear Placement": "On Ear",
+      "Form Factor": "On Ear",
+      "Impedance": "28 Ohms"
+    },
+    "variantImages": [
+      "images/product1-3.jpg",
+      "images/product1-3.jpg"
+    ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "50 Hours battery life",
+      "Dual pairing",
+      "Soft ear cushions",
+      "Bluetooth 5.3",
+      "Type-C charging"
+    ],
+    "stock": "In stock",
+    "seller": "Noise Official",
+    "deliveryText": "FREE delivery Wednesday"
+  },
+
+  {
+    "id": 5,
+    "title": "Prepared (Fds)",
+    "brand": "Hero",
+    "rating": 4.3,
+    "reviewCount": 19456,
+    "badge": "Best Seller",
+    "price": 6999,
+    "mrp": 14990,
+    "discountPercent": 60,
+    "mainImage": "./images/product1-4.jpg",
+    "images": [
+      "./images/product1-4.jpg",
+      "./images/product1-4.jpg"
+    ],
+    "specifications": {
+      "Brand": "hero",
+      "Colour": "Red",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "32 Ohms"
+    },"variantImages": [
+    "images/product1-4.jpg",
+    "images/product1-4.jpg"
+  ],
+    "variantPrices": [6799, 8799],
+    "variantMrp": [7790, 8790],
+    "about": [
+      "PREPARED HERO EXTRA LARGE EMERGENCY FIRE BLANKET: Extinguish small fires quickly and easily with no mess (unlike common fire extinguishers). Simply deploy the blanket by pulling down the tabs.",
+      "EXTRA LARGE PREPARED HERO PEACE OF MIND: Peace of mind for when fire happens from the brand you trust. Keep the Fire Blanket in the kitchen, backyard, vehicle or take it camping. It has a hole slot so it can also be easily hung on walls.",
+      "LIGHTWEIGHT FIRE SUPPRESSION BLANKET: Effective on liquid or grease fires. It Works in different types of fire as well. They can also be used as a thermal or heat shield . A must have in your kitchen, backyard and vehicle survival kit for protection."
+    ],
+    "stock": "In stock",
+    "seller": "Clicktech Retail Private Ltd",
+    "deliveryText": "FREE delivery Tomorrow"
+  },
+
+  {
+    "id": 6,
+    "title": "Hydro Flask All Around Travel Tumbler Trillium 32 Oz",
+    "brand": "Zebronics",
+    "rating": 3.9,
+    "reviewCount": 10233,
+    "badge": "Budget Pick",
+    "price": 1899,
+    "mrp": 4999,
+    "discountPercent": 55,
+    "mainImage": "./images/product1-5.jpg",
+    "images": [
+      "./images/product1-5.jpg",
+      "./images/product1-5.jpg"
+    ],
+    "specifications": {
+      "Brand": "Zebronics",
+      "Colour": "Purple",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "24 Ohms"
+    },"variantImages": [
+    "images/product1-5.jpg",
+    "images/product1-5.jpg"
+  ],
+    "variantPrices": [1799, 2799],
+    "variantMrp": [1790, 2790],
+    "about": [
+      "9 Hours playback",
+      "Built-in FM",
+      "Micro SD support",
+      "Soft ear cups",
+      "Adjustable headband"
+    ],
+    "stock": "In stock",
+    "seller": "Zebronics India",
+    "deliveryText": "FREE delivery Saturday"
+  },
+
+  {
+    "id": 7,
+    "title": "OutdoorMaster Ski Helmet - with ASTM Certified Safety, 9 Options - for Men, Women & Youth (Black,M)",
+    "brand": "OnePlus",
+    "rating": 4.5,
+    "reviewCount": 25432,
+    "badge": "Top Rated",
+    "price": 12999,
+    "mrp": 22299,
+    "discountPercent": 13,
+    "mainImage": "./images/product1-6.jpg",
+    "images": [
+      "./images/product1-6.jpg",
+      "./images/product1-6.jpg"
+    ],
+    "specifications": {
+      "Brand": "OnePlus",
+      "Colour": "Magico Black",
+      "Ear Placement": "In Ear",
+      "Form Factor": "In Ear",
+      "Impedance": "16 Ohms"
+    },"variantImages": [
+    "images/product1-6.jpg",
+    "images/product1-6.jpg"
+  ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "30 Hours battery life",
+      "Fast charging support",
+      "IP55 rating",
+      "Powerful bass",
+      "Bluetooth 5.2"
+    ],
+    "stock": "In stock",
+    "seller": "OnePlus India",
+    "deliveryText": "FREE delivery Tomorrow"
+  },
+
+  {
+    "id": 8,
+    "title": "Realme Buds Wireless 3 Neo Bluetooth Neckband",
+    "brand": "Realme",
+    "rating": 4.1,
+    "reviewCount": 7632,
+    "badge": "Limited Deal",
+    "price": 1299,
+    "mrp": 2499,
+    "discountPercent": 48,
+    "mainImage": "./images/product1-7.jpg",
+    "images": [
+      "./images/product1-7.jpg",
+      "./images/product1-7.jpg"
+    ],
+    "specifications": {
+      "Brand": "Realme",
+      "Colour": "Blue",
+      "Ear Placement": "In Ear",
+      "Form Factor": "In Ear",
+      "Impedance": "16 Ohms"
+    },"variantImages": [
+    "images/product1-7.jpg",
+    "images/product1-7.jpg"
+  ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "32 Hours playback",
+      "AI Noise cancellation",
+      "Instant pairing",
+      "Lightweight design",
+      "Fast charge support"
+    ],
+    "stock": "In stock",
+    "seller": "Realme Official",
+    "deliveryText": "FREE delivery Thursday"
+  },
+
+  {
+    "id": 9,
+    "title": "Apple AirPods (3rd Generation) with Spatial Audio",
+    "brand": "Apple",
+    "rating": 4.6,
+    "reviewCount": 18765,
+    "badge": "Premium Choice",
+    "price": 18999,
+    "mrp": 20900,
+    "discountPercent": 9,
+    "mainImage": "./images/product1-8.jpg",
+    "images": [
+      "./images/product1-8.jpg",
+      "./images/product1-8.jpg"
+    ],
+    "specifications": {
+      "Brand": "Apple",
+      "Colour": "White",
+      "Ear Placement": "In Ear",
+      "Form Factor": "In Ear",
+      "Impedance": "Not Specified"
+    },"variantImages": [
+    "images/product1-8.jpg",
+    "images/product1-8.jpg"
+  ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "Spatial audio support",
+      "Adaptive EQ",
+      "Sweat and water resistant",
+      "Up to 30 hours listening time",
+      "Lightning charging case"
+    ],
+    "stock": "In stock",
+    "seller": "Appario Retail",
+    "deliveryText": "FREE delivery Tomorrow"
+  },
+
+  {
+    "id": 10,
+    "title": "Sennheiser HD 450BT Wireless Over Ear Headphones",
+    "brand": "Sennheiser",
+    "rating": 4.3,
+    "reviewCount": 3421,
+    "badge": "Top Rated",
+    "price": 9990,
+    "mrp": 14990,
+    "discountPercent": 33,
+    "mainImage": "./images/product1-9.jpg",
+    "images": [
+      "./images/product1-9.jpg",
+      "./images/product1-9.jpg"
+    ],
+    "specifications": {
+      "Brand": "Sennheiser",
+      "Colour": "Black",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "18 Ohms"
+    },"variantImages": [
+    "images/product1-9.jpg",
+    "images/product1-9.jpg"
+  ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "Active Noise Cancellation",
+      "30 Hours battery life",
+      "High-quality audio",
+      "Voice assistant button",
+      "USB-C fast charging"
+    ],
+    "stock": "In stock",
+    "seller": "Sennheiser India",
+    "deliveryText": "FREE delivery Friday"
+  },
+
+  {
+    "id": 11,
+    "title": "Infinity Glide 500 Wireless Over-Ear Headphones",
+    "brand": "Infinity",
+    "rating": 4.0,
+    "reviewCount": 6821,
+    "badge": "Budget Pick",
+    "price": 1399,
+    "mrp": 3499,
+    "discountPercent": 60,
+    "mainImage": "./images/product1-10.jpg",
+    "images": [
+      "./images/product1-10.jpg",
+      "./images/product1-10.jpg"
+    ],
+    "specifications": {
+      "Brand": "Infinity",
+      "Colour": "Teal",
+      "Ear Placement": "Over Ear",
+      "Form Factor": "Over Ear",
+      "Impedance": "32 Ohms"
+    },"variantImages": [
+    "images/product1-10.jpg",
+    "images/product1-10.jpg"
+  ],
+    "variantPrices": [11799, 18799],
+    "variantMrp": [13790, 18790],
+    "about": [
+      "72 Hours battery life",
+      "Dual equalizer modes",
+      "Deep bass",
+      "Lightweight design",
+      "Voice assistant support"
+    ],
+    "stock": "In stock",
+    "seller": "Infinity Retail",
+    "deliveryText": "FREE delivery Monday"
+  }
+]

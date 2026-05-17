@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./product.html"
+
     <link rel="stylesheet" href="./cart.css">
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="nav-logo border">
-                <a href="https://www.amazon.com/"><div class="logo"></div></a>
+                <a href="./index.html"><div class="logo"></div></a>
             </div>
 
             <div class="nav-address border">
@@ -50,10 +50,9 @@
                 <p><span>Returns</span></p>
                 <p class="nav-second">& Orders</p>
             </div>
-
             <a href="./cart.html" class="nav-cart">
-              <img src="./images/cart_icon.png" width="35px" alt="">
-              <h4>Cart</h4>
+                <img src="./images/cart_icon.png" width="35px" alt="">
+                <h4>Cart</h4>
             </a>
         </div>
 
@@ -116,7 +115,33 @@
             </div>
         </div>
     </header>
-    
+    <div class="cart-container">
 
+        <div class="cart-left">
+            <h2>Shopping Cart</h2>
+            <div id="cartItems"></div>
+        </div>
+
+        <div class="cart-right">
+            <div class="cart-summary">
+                <h3>Subtotal (<span id="totalItems">0</span> items)</h3>
+                <h2>₹<span id="subtotal">0</span></h2>
+                <div class="summary-note">
+                    <span>✔</span>
+                    <p>Your order is eligible for <strong>FREE Delivery</strong>. Select this option at checkout.</p>
+                </div>
+                <button class="proceed-btn">Proceed to Buy</button>
+                <button class="go-cart-btn">Go to Cart</button>
+                <p class="savings-text">You save ₹<span id="totalSavings">0</span> on this order</p>
+                <p class="shipping-estimate">Estimated delivery: <strong id="shippingEstimate">Tomorrow, if ordered within 2 hrs</strong></p>
+                <div class="checkout-info">
+                    <p><strong>Payment Options:</strong> UPI, credit/debit card, EMI, netbanking</p>
+                    <p><strong>Secure checkout:</strong> SSL encrypted and fast delivery eligible</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

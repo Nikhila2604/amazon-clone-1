@@ -6,10 +6,136 @@
     box-sizing: border-box;
 }
 body{
-   background: #dadada;
+   background: #ececec;
 }
 a{
     text-decoration: none;
+    color: inherit;
+}
+
+/* Global product list cards */
+.products {
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 16px;
+}
+
+.products::-webkit-scrollbar {
+    height: 10px;
+}
+
+.products::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.product-list-card {
+    min-width: 260px;
+    max-width: 260px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 28px rgba(15, 17, 17, 0.06);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(15, 17, 17, 0.1);
+}
+
+.product-list-card img {
+    width: 100%;
+    object-fit: contain;
+    height: 220px;
+    background: #f9f9f9;
+}
+
+.product-list-card .card-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.product-brand {
+    font-size: 12px;
+    color: #007185;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.card-title {
+    font-size: 14px;
+    color: #111;
+    line-height: 1.4;
+    min-height: 56px;
+}
+
+.card-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #111;
+    font-size: 13px;
+}
+
+.card-rating i {
+    color: #f0c14b;
+    font-size: 12px;
+}
+
+.review-count {
+    color: #565959;
+    font-size: 12px;
+}
+
+.card-delivery {
+    color: #565959;
+    font-size: 12px;
+    line-height: 1.4;
+    min-height: 34px;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin-top: auto;
+}
+
+.card-add-btn {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    background: #ffd814;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card-add-btn:hover {
+    background: #f7c302;
+}
+
+.product-list-card .card-info a {
     color: inherit;
 }
 
