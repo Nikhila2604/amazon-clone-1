@@ -371,3 +371,17 @@ function removeItem(id) {
 
   location.reload();
 }
+  /* ===============================
+     PRODUCT THUMBNAILS
+  ================================ */
+  const thumbnails = document.querySelectorAll(".thumbnails img");
+
+  thumbnails.forEach(thumb => {
+    thumb.addEventListener("click", () => {
+      const card = thumb.closest(".product-card");
+      if (!card) return;
+
+      const mainImage = card.querySelector(".big-image");
+      if (mainImage) mainImage.src = thumb.src;
+    });
+  });
